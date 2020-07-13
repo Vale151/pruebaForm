@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+     
+    <title>Ejemplo de Form</title>
+</head>
+<body>
+    
+    <div class="header">
+        <h1>Bienvenidas/os a Prueba Market</h1>
+    </div>
+
+    <div class="main">
+        
+        <div class="form">
+            
+            <form method="POST">
+                <h2>Formulario de registro</h2>
+                <p>Prometemos que será rápido😉.</p>
+
+                <p>
+                    <label for="name">Nombre Completo:</lael><br>
+                    <input type="text" name="name" id="name" placeholder="Ingresa tu nombre" class="border">
+                </p>
+        
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email" name="email" id="email" placeholder="email" class="border">
+                </p>
+        
+                <p>
+                    <label for="password">Contraseña:</label><br>
+                    <input type="password" name="password" id="password" class="border">
+                </p>
+        
+        
+                <p>
+                    <label for="userType">¿Qué tipo de usuario sos?</label><br>
+                    <select name="userType" id="productCategory"  class="border">
+                        <option value="" >Seleccioná una opción</option>
+                        <option value="1">Consumidor final</option>
+                        <option value="2">Monotributista</option>
+                        <option value="3" selected>Un Alien 👽 </option>
+                    </select>
+        
+                </p>
+        
+                <p>
+                    <label for="name">¿Cuál va a ser tu actividad principal?</label><br>
+        
+                    <input type="radio" name="mainActivity" id="mainActivityBuyer" value="buyer">
+                    <label for="mainActivityBuyer">Comprar</label>
+                    <br>
+        
+                    <input type="radio" name="mainActivity" id="mainActivityseller" value="seller">
+                    <label for="mainActivityseller">Vender</label>
+                    <br>
+                    
+                </p>
+        
+                <p>
+                    <label for="productCategory">¿Qué ipo de productos te interesan?</label><br>
+                
+                    <p>
+                        <input type="checkbox" name="productCategories" id="productCategoriesTech" value="tech" checked>
+                        <label for="productCategoriesTech">Tecnología</label>
+                    </p>
+        
+                    <p>
+                        <input type="checkbox" name="productCategories" id="productCategoriesHome" value="home">
+                        <label for="productCategoriesHome">Hogar</label>
+                    </p>
+        
+                    <p>
+                        <input type="checkbox" name="productCategories" id="productCategoriesTools" value="tools">
+                        <label for="productCategoriesTools">Herramientas</label>
+                    </p>
+        
+                    <p>
+                        <input type="checkbox" name="productCategories" id="productCategoriesSports" value="sports">
+                        <label for="productCategoriesSports">Deportes</label>
+                    </p>
+        
+                    <p>
+                        <input type="checkbox" name="productCategories" id="productCategoriesBooks" value="books">
+                        <label for="productCategoriesBooks">Libros</label>
+                    </p>
+        
+                </p>
+        
+                <p>
+                    <button class="button button-submit border" type="submit">Registrarme</button>
+                    <button class="button button-reset border" type="reset">Empezar de nuevo</button>
+                    
+                </p>
+            </form>
+        </div>
+    </div>  
+</body>
+</html>
